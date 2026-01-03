@@ -2,13 +2,13 @@ import simpy
 import random
 import statistics
 import config
-from entities import KopiSenja
+from entities import TomoroCoffee
 from processes import generator_pelanggan
 
 def jalankan_simulasi(skenario, data_laporan):
     random.seed(config.RANDOM_SEED)
     env = simpy.Environment()
-    kedai = KopiSenja(env)
+    kedai = TomoroCoffee(env)
     env.process(generator_pelanggan(env, kedai, skenario, data_laporan))
     env.run(until=config.WAKTU_SIMULASI)
 
