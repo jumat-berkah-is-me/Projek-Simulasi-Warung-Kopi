@@ -6,9 +6,9 @@ import config
 from entities import TomoroCoffee
 from processes import generator_pelanggan
 
-st.set_page_config(page_title="Simulasi Kopi Senja", layout="wide")
+st.set_page_config(page_title="Simulasi Tomoro Coffee", layout="wide")
 
-st.title("Simulasi Antrean 'Kopi Senja'")
+st.title("Simulasi Antrean Tomoro Coffee")
 st.markdown("""
 Aplikasi ini mensimulasikan perbandingan efisiensi antara **Sistem FIFO** (Kondisi Saat Ini) 
 dan **Sistem Prioritas** (Solusi Usulan) untuk mengatasi penumpukan antrean.
