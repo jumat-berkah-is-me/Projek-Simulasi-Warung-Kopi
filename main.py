@@ -1,7 +1,3 @@
-import simpy
-import random
-import statistics
-
 WAKTU_SIMULASI = 180
 JUMLAH_BARISTA = 1
 WAKTU_BUAT_PER_CUP = 2 # menit
