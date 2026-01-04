@@ -14,6 +14,7 @@ st.set_page_config(
 )
 
 st.title("Analisis Antrean: Tomoro Coffee Kemang")
+st.subheader("Wisnu Saputra (51422635)")
 
 with st.sidebar:
     st.header("Parameter Simulasi")
