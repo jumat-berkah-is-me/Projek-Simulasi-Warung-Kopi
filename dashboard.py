@@ -100,7 +100,7 @@ if tombol_run:
             st.dataframe(df_a[['Nama', 'Tipe', 'Jumlah_Cup', 'Waktu_Tunggu']], height=300)
             
         with col_t2:
-            st.markdown("#### Data Skenario B (Solusi)")
+            st.markdown("#### Data Skenario B (Prioritas)")
             st.dataframe(df_b[['Nama', 'Tipe', 'Jumlah_Cup', 'Waktu_Tunggu']], height=300)
 
 else:
