@@ -33,6 +33,11 @@ Launch the interactive dashboard:
 streamlit run dashboard.py
 ```
 
+Or, visit the hosted web dashboard:
+```
+https://simulasi-antrian-tomoro.streamlit.app/
+```
+
 The dashboard allows you to:
 - Adjust simulation parameters (duration, arrival intervals, service times)
 - Run simulations for both scenarios
